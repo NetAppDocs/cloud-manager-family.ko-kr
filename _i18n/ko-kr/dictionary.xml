@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="aeaeee19a7c393222e407a525cf01991" category="doc">NSS 계정을 추가합니다</block>
+  <block id="3c10116b37b407ac79092a38ffb292e4" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
+  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1인 등록</block>
+  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">아직 NetApp Support 사이트 계정이 없는 경우<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>.</block>
+  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
+  <block id="357be4e47fe6e7132dca092006062510" category="paragraph"><block ref="357be4e47fe6e7132dca092006062510" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
+  <block id="f5fb4199485234c409525f430b737010" category="paragraph">이 작업을 수행하면 Cloud Manager에서 NSS 계정을 사용할 수 있습니다.</block>
+  <block id="56adf724101d4208ec84510dd5141cbe" category="paragraph">계정에 대한 다음 요구 사항을 참고하십시오.</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
+  <block id="f35b3071eb18e73b5274b2d3930c1cec" category="list-text">노드 기반 BYOL 시스템을 구축하려는 경우:</block>
+  <block id="4f67a838013dae97fbc2ef8c52275e5d" category="list-text">이 계정은 BYOL 시스템의 일련 번호에 액세스할 수 있는 권한이 있어야 합니다.</block>
+  <block id="920eb18d0b8767d6fc05b934ad81e34b" category="list-text">안전한 BYOL 구독을 구입한 경우 보안 NSS 계정이 필요합니다.</block>
+  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
+  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
+  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="doc">자체 지원</block>
+  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp은 다양한 방법으로 Cloud Manager 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">Cloud Manager 기술 자료를 검색하여 문제를 해결할 수 있는 유용한 문서를 찾습니다.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">Cloud Manager 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만들어보십시오.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
+  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">현재 보고 있는 Cloud Manager 문서입니다.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
+  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. 클라우드 관리자 개선에 도움이 되는 피드백을 제출해 주십시오.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
+  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 엔지니어와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
+  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">NetApp 기술 지원을 위한 전화 번호를 찾으려면 * 문의하다</block>
+  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">문제 열기 * 를 클릭하고 옵션 중 하나를 선택한 다음 * 보내기 * 를 클릭합니다.</block>
+  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 담당자가 귀하의 케이스를 검토하고 곧 다시 귀하에 연락을 드릴 것입니다.</block>
+  <block id="801137ecb911e137717f3efd696e31cd" category="summary">Cloud Manager는 IT 전문가 및 클라우드 설계자에게 하이브리드 클라우드 환경에서 데이터를 관리, 모니터링 및 자동화하기 위한 중앙 집중식 제어 수단을 제공합니다. 제품 영역별로 문서를 검색하거나 위의 검색을 사용하여 Cloud Manager 문서의 어느 위치에서나 콘텐츠를 찾을 수 있습니다.</block>
+  <block id="b3a853d57fdef5749cc6f40650ebaac6" category="doc">Cloud Manager 설명서</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="3cf34f74121b51a5916fab60bb6188d0" category="sidebar">모든 콘텐츠</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="8e5adb4723e04a1f9bf2ea7df2c5e684" category="sidebar">커넥터 및 계정</block>
+  <block id="ea627596cdd2147f06ea8115fe33f80e" category="sidebar">실행 가능한 지능</block>
+  <block id="6beccc67ff905f7da0b29dece26b0485" category="sidebar">Amazon Web Services에서 직접 지원합니다</block>
+  <block id="caea8340e2d186a540518d08602aa065" category="sidebar">자동화</block>
+  <block id="a623a8d0366bf079411aa30be45b2d10" category="sidebar">컴퓨팅</block>
+  <block id="981bffcb165038c7fa06d58ef1c4cdaf" category="sidebar">데이터 거버넌스</block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="sidebar">데이터 보호</block>
+  <block id="0a9e63106b5735d38d5bf5377346f3ed" category="sidebar">데이터 복제</block>
+  <block id="4877a4fced94635d9abbb2464ddef37a" category="sidebar">파일 공유</block>
+  <block id="30136395f01879792198317c11831ea4" category="sidebar">쿠버네티스</block>
+  <block id="1668ca1bd914c1d847f23b491319ac91" category="sidebar">Microsoft Azure를 참조하십시오</block>
+  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="sidebar">모니터링</block>
+  <block id="56ef2682280ac110060b881925a87b80" category="sidebar">Google 클라우드</block>
+  <block id="232a2b16a1710c0ed1d16548ba8bb8f1" category="sidebar">랜섬웨어</block>
+  <block id="8c4aa541ee911e8d80451ef8cc304806" category="sidebar">스토리지</block>
+  <block id="30b77b282030e8985671bcc89e3e4d74" category="sidebar">설정 및 관리</block>
+  <block id="ebf83dc6f9abc581c0cbcf7c286c6bed" category="sidebar">Cloud Manager 사용을 시작하고 커넥터, 계정 등을 관리하는 방법에 대해 알아보십시오.</block>
+  <block id="72f9d32a77debe2f3f6cfa4485880344" category="sidebar">모든 Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Active IQ 디지털 자문업체</block>
+  <block id="92086381b2a7391ff015bfa58d13afc9" category="sidebar">최적의 스토리지 상태를 위해 실행 가능한 인텔리전스</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="sidebar">ONTAP용 Amazon FSx</block>
+  <block id="977f48c0ad107bab5b00e6582e3d62b5" category="sidebar">ONTAP의 모든 기능을 AWS로 관리하는 네이티브 서비스로 사용하십시오.</block>
+  <block id="db974238714ca8de634a7ce1d083a14f" category="sidebar">API를 참조하십시오</block>
+  <block id="11ab9ad674d9803df9eb747b060ea178" category="sidebar">클라우드 기반 리소스를 프로그래밍 방식으로 관리합니다.</block>
+  <block id="ca9106b8b82ff55b6fdce530ccb952a7" category="sidebar">AppTemplate(애플리케이션 템플릿)</block>
+  <block id="4d3fcb70d2abff3ff5e4d5fac2556a44" category="sidebar">Cloud Manager에서 작업을 자동화하여 프로비저닝 속도를 높이고 수동 작업을 제거합니다.</block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="sidebar">Azure NetApp Files</block>
+  <block id="7f0915fd413dcc718e35e39d644d92ac" category="sidebar">핵심 비즈니스 애플리케이션을 위한 고성능 파일 스토리지 서비스입니다.</block>
+  <block id="dad57e95fc9a5390302ad830888cbdb9" category="sidebar">클라우드 백업</block>
+  <block id="a3460dd01b0f0c32632246bf209e730f" category="sidebar">클라우드 및 온프레미스 데이터 백업 및 복원</block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="sidebar">클라우드 데이터 감지</block>
+  <block id="2090f2d846793f153b9266c648b079ef" category="sidebar">애플리케이션 데이터 및 클라우드 환경의 개인 정보를 보호합니다.</block>
+  <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="sidebar">Cloud Sync</block>
+  <block id="9f47c7f98e6626074067a711fc1863ea" category="sidebar">온프레미스 및 클라우드 데이터 저장소 간에 데이터를 동기화합니다.</block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="sidebar">클라우드 계층화</block>
+  <block id="c6844dc3fe4e51f03d9c9209b1f58fc4" category="sidebar">사내 ONTAP 스토리지를 클라우드로 확장</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
+  <block id="1264ff6a809549b27ab6285b6ab793f2" category="sidebar">클라우드 스토리지를 보다 경제적이고, 지능적이며, 규정을 준수하고, 안전하게 보호하십시오.</block>
+  <block id="06021ba1ee96f1a3a57b50001fc7244c" category="sidebar">AWS 환경을 위한 Cloud Volumes Service</block>
+  <block id="d63057df831de033bf2e3c5f97ec80ba" category="sidebar">All-Flash 성능을 지원하는 클라우드 네이티브 파일 서비스</block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="sidebar">Google Cloud용 Cloud Volumes Service</block>
+  <block id="862d06f5b0779c31053bcadc07e8028b" category="sidebar">파일 스토리지를 보호하고 속도를 높이십시오.</block>
+  <block id="a17d9dd4943af64ba04db4529621baf0" category="sidebar">클라우드 컴퓨팅 지출에 대한 가시성을 확보하고 잠재적 절감을 파악하십시오.</block>
+  <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="sidebar">글로벌 파일 캐시</block>
+  <block id="20fa9c1bc12bf7468e5d341fc1e54b7f" category="sidebar">분산된 인력을 위해 글로벌 파일을 실시간으로 공유할 수 있습니다.</block>
+  <block id="85eb427901278daf26f132cb3e076914" category="sidebar">Kubernetes 클러스터</block>
+  <block id="94e507a2878d87e4845a941fafc1702f" category="sidebar">하이브리드 클라우드의 Kubernetes 클러스터의 고급 데이터 관리</block>
+  <block id="cc39e0b89a2a92cf04dc87d6a61428d5" category="sidebar">Cloud Volumes ONTAP의 상태 및 성능에 대한 통찰력 확보</block>
+  <block id="d0f1687c68ee0f0d9bac765716d18923" category="sidebar">온프레미스 ONTAP 클러스터</block>
+  <block id="b7a3a3d6e3a875d91556459f1c471d33" category="sidebar">하이브리드 클라우드 전반에서 NetApp AFF 및 FAS 시스템을 관리할 수 있습니다.</block>
+  <block id="950604af87c30e09716e6d097eb491db" category="sidebar">랜섬웨어 보호</block>
+  <block id="0a2beb44f980a6220ce4afa12b490e4f" category="sidebar">사이버 공격에 대한 데이터 복원성 평가</block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="sidebar">복제</block>
+  <block id="852e5aa5bab2b81469e97f26b6e2b7f3" category="sidebar">스토리지 시스템 간에 데이터를 복제하여 백업 및 재해 복구 지원</block>
+  <block id="fed6fa1f1b675c268f8b78258e2545a7" category="sidebar">SnapCenter 서비스</block>
+  <block id="f0f6cb7dbb43bbd1b2c2edeb9f51c21b" category="sidebar">클라우드에서 애플리케이션 정합성이 보장되는 데이터 보호</block>
+</blocks>
