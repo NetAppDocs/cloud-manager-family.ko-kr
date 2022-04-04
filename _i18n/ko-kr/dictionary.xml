@@ -46,24 +46,18 @@
   <block id="801137ecb911e137717f3efd696e31cd" category="summary">Cloud Manager는 IT 전문가 및 클라우드 설계자에게 하이브리드 클라우드 환경에서 데이터를 관리, 모니터링 및 자동화하기 위한 중앙 집중식 제어 수단을 제공합니다. 제품 영역별로 문서를 검색하거나 위의 검색을 사용하여 Cloud Manager 문서의 어느 위치에서나 콘텐츠를 찾을 수 있습니다.</block>
   <block id="b3a853d57fdef5749cc6f40650ebaac6" category="doc">Cloud Manager 설명서</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
-  <block id="3cf34f74121b51a5916fab60bb6188d0" category="sidebar">모든 콘텐츠</block>
-  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="8e5adb4723e04a1f9bf2ea7df2c5e684" category="sidebar">커넥터 및 계정</block>
-  <block id="ea627596cdd2147f06ea8115fe33f80e" category="sidebar">실행 가능한 지능</block>
   <block id="6beccc67ff905f7da0b29dece26b0485" category="sidebar">Amazon Web Services에서 직접 지원합니다</block>
   <block id="caea8340e2d186a540518d08602aa065" category="sidebar">자동화</block>
   <block id="a623a8d0366bf079411aa30be45b2d10" category="sidebar">컴퓨팅</block>
   <block id="981bffcb165038c7fa06d58ef1c4cdaf" category="sidebar">데이터 거버넌스</block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="sidebar">데이터 보호</block>
-  <block id="0a9e63106b5735d38d5bf5377346f3ed" category="sidebar">데이터 복제</block>
   <block id="4877a4fced94635d9abbb2464ddef37a" category="sidebar">파일 공유</block>
   <block id="30136395f01879792198317c11831ea4" category="sidebar">쿠버네티스</block>
   <block id="1668ca1bd914c1d847f23b491319ac91" category="sidebar">Microsoft Azure를 참조하십시오</block>
   <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="sidebar">모니터링</block>
   <block id="56ef2682280ac110060b881925a87b80" category="sidebar">Google 클라우드</block>
-  <block id="232a2b16a1710c0ed1d16548ba8bb8f1" category="sidebar">랜섬웨어</block>
-  <block id="8c4aa541ee911e8d80451ef8cc304806" category="sidebar">스토리지</block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="sidebar">설정 및 관리</block>
   <block id="ebf83dc6f9abc581c0cbcf7c286c6bed" category="sidebar">Cloud Manager 사용을 시작하고 커넥터, 계정 등을 관리하는 방법에 대해 알아보십시오.</block>
   <block id="72f9d32a77debe2f3f6cfa4485880344" category="sidebar">모든 Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
@@ -105,4 +99,8 @@
   <block id="852e5aa5bab2b81469e97f26b6e2b7f3" category="sidebar">스토리지 시스템 간에 데이터를 복제하여 백업 및 재해 복구 지원</block>
   <block id="fed6fa1f1b675c268f8b78258e2545a7" category="sidebar">SnapCenter 서비스</block>
   <block id="f0f6cb7dbb43bbd1b2c2edeb9f51c21b" category="sidebar">클라우드에서 애플리케이션 정합성이 보장되는 데이터 보호</block>
+  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="sidebar">모두</block>
+  <block id="05ccfbea6601dcca671775f24a6b14d3" category="sidebar">코드 샘플</block>
+  <block id="dc21b082b0947a93d387b8c7e8f89ee5" category="sidebar">데이터 스토리지</block>
+  <block id="396928510e06818ef017921022cce2af" category="sidebar">데이터 계층화</block>
 </blocks>

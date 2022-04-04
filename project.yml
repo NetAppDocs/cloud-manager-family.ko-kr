@@ -15,43 +15,37 @@ sidebar:
     url: "/index.html"
 product-family:
   sidebarlinks:
-  - title: 모든 콘텐츠
+  - title: 모두
     tags: all
     class: active
-  - title: 시작하십시오
-    tags: get-started
-  - title: 릴리스 정보
-    tags: relnotes
-  - title: 커넥터 및 계정
-    tags: admin
-  - title: 실행 가능한 지능
-    tags: activeiq
   - title: Amazon Web Services에서 직접 지원합니다
     tags: aws
   - title: 자동화
     tags: automation
+  - title: 코드 샘플
+    tags: code
   - title: 컴퓨팅
     tags: compute
+  - title: 커넥터 및 계정
+    tags: admin
   - title: 데이터 거버넌스
     tags: governance
   - title: 데이터 보호
     tags: protection
-  - title: 데이터 복제
-    tags: replication
+  - title: 데이터 스토리지
+    tags: storage
+  - title: 데이터 계층화
+    tags: tiering
   - title: 파일 공유
     tags: sharing
+  - title: Google 클라우드
+    tags: gcp
   - title: 쿠버네티스
     tags: kubernetes
   - title: Microsoft Azure를 참조하십시오
     tags: azure
   - title: 모니터링
     tags: monitoring
-  - title: Google 클라우드
-    tags: gcp
-  - title: 랜섬웨어
-    tags: ransomware
-  - title: 스토리지
-    tags: storage
   tiles:
   - title: 설정 및 관리
     icon: "./media/icon-docs.png"
@@ -62,11 +56,11 @@ product-family:
     icon: "./media/icon-docs.png"
     url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
     summary: 모든 Cloud Manager의 새로운 기능에 대해 알아보십시오.
-    tags: all, relnotes
+    tags: all
   - title: Active IQ 디지털 자문업체
     icon: "./media/icon-activeiq.png"
     url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html
-    tags: all, activeiq
+    tags: all, monitoring
     summary: 최적의 스토리지 상태를 위해 실행 가능한 인텔리전스
   - title: ONTAP용 Amazon FSx
     icon: "./media/icon-fsx.png"
@@ -77,7 +71,7 @@ product-family:
     icon: "./media/icon-api.png"
     url: https://docs.netapp.com/us-en/cloud-manager-automation/index.html
     summary: 클라우드 기반 리소스를 프로그래밍 방식으로 관리합니다.
-    tags: all, api, automation
+    tags: all, code
   - title: AppTemplate(애플리케이션 템플릿)
     icon: "./media/icon-app-template.png"
     url: https://docs.netapp.com/us-en/cloud-manager-app-template/index.html
@@ -107,7 +101,7 @@ product-family:
     icon: "./media/icon-tiering.png"
     url: https://docs.netapp.com/us-en/cloud-manager-tiering/index.html
     summary: 사내 ONTAP 스토리지를 클라우드로 확장
-    tags: all, aws, azure, gcp
+    tags: all, aws, azure, gcp, tiering
   - title: Cloud Volumes ONTAP
     icon: "./media/icon-cvo.png"
     url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
@@ -152,12 +146,12 @@ product-family:
     icon: "./media/icon-ransomware.png"
     url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
     summary: 사이버 공격에 대한 데이터 복원성 평가
-    tags: all, ransomware
+    tags: all, protection
   - title: 복제
     icon: "./media/icon-replication.png"
     url: https://docs.netapp.com/us-en/cloud-manager-replication/index.html
     summary: 스토리지 시스템 간에 데이터를 복제하여 백업 및 재해 복구 지원
-    tags: all, replication, protection
+    tags: all, protection
   - title: SnapCenter 서비스
     icon: "./media/icon-snapcenter.png"
     url: https://docs.netapp.com/us-en/cloud-manager-snapcenter/index.html
