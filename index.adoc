@@ -6,6 +6,7 @@ summary: Cloud Manager는 IT 전문가 및 클라우드 설계자에게 하이�
 ---
 = Cloud Manager 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -1,4 +1,5 @@
 = NSS 계정을 추가합니다
+:allow-uri-read: 
 
 
 NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.
