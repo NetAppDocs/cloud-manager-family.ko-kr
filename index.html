@@ -248,11 +248,13 @@
           <div id="react-search" 
           data-search-html="/ko-kr/cloud-manager-family/search.html"
           data-type="widget" 
-          data-placeholder="설명서 검색" 
-          data-no-results-found="{query}에 대한 결과를 찾을 수 없음" 
-          data-did-you-mean="{suggestion}을(를) 검색해보십시오." 
-          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?" 
-          data-results-found="{hitCount}개의 결과를 찾음"  
+          data-placeholder="설명서 검색"
+          data-no-results-found="{query}에 대한 결과를 찾을 수 없음"
+          data-did-you-mean="{suggestion}을(를) 검색해보십시오."
+          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?"
+          data-results-found="{hitCount}개의 결과를 찾음"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -267,35 +269,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/cloud-manager-family/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/cloud-manager-family/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/cloud-manager-family/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/cloud-manager-family/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/cloud-manager-family/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/cloud-manager-family/index.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/cloud-manager-family/index.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/cloud-manager-family/index.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/cloud-manager-family/index.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/cloud-manager-family/index.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/cloud-manager-family/index.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -333,7 +327,7 @@
 
         <main id="n-main-content" class="n-main-content">
           <div class="ie-main product-family"><div class="col-md-3">
-    <div class="product-family-linkheading">콘텐츠 찾아보기</div>
+    <div class="product-family-linkheading">제품 기능으로 필터링</div>
     <ul id="product-family-links"><li class="active"><a href="#" class="product-family-space" data-tags="all">모두</a></li><li><a href="#" class="product-family-space" data-tags="aws">Amazon Web Services에서 직접 지원합니다</a></li><li><a href="#" class="product-family-space" data-tags="automation">자동화</a></li><li><a href="#" class="product-family-space" data-tags="code">코드 샘플</a></li><li><a href="#" class="product-family-space" data-tags="compute">컴퓨팅</a></li><li><a href="#" class="product-family-space" data-tags="admin">커넥터 및 계정</a></li><li><a href="#" class="product-family-space" data-tags="governance">데이터 거버넌스</a></li><li><a href="#" class="product-family-space" data-tags="protection">데이터 보호</a></li><li><a href="#" class="product-family-space" data-tags="storage">데이터 스토리지</a></li><li><a href="#" class="product-family-space" data-tags="tiering">데이터 계층화</a></li><li><a href="#" class="product-family-space" data-tags="sharing">파일 공유</a></li><li><a href="#" class="product-family-space" data-tags="gcp">Google 클라우드</a></li><li><a href="#" class="product-family-space" data-tags="kubernetes">쿠버네티스</a></li><li><a href="#" class="product-family-space" data-tags="azure">Microsoft Azure를 참조하십시오</a></li><li><a href="#" class="product-family-space" data-tags="monitoring">모니터링</a></li></ul>
 </div>
 <div class="tile-container">
@@ -800,4 +794,5 @@
     </script>
     <script src='/ko-kr/cloud-manager-family/js/www-ntap.js'></script>
     <script src='/ko-kr/cloud-manager-family/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/cloud-manager-family/js/sidebar.js'></script>
   </body></html>
